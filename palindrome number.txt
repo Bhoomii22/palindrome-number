@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+ int n,rev,=0,remainder,orginal;
+   printf("enter an integer:")
+   scanf("%d",&n")
+   orignal=n;
+   while(n!=0)
+   { 
+    remainder = n%10;
+    rev=*10+remainder;
+    n/=10;
+   }
+  if(orginal==rev)
+   {
+    printf("%d is palindrome",original);
+   }
+  else
+   {
+    printf("%d is palindrome",original);
+   }
+getch();
+}
